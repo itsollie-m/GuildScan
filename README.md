@@ -81,14 +81,37 @@ CLIENT_ID=your_application_client_id
 
 ---
 
+## 🔗 Bot Invite
+
+Invite your bot to your Discord server using the link below:
+
+<https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=85120&integration_type=0&scope=bot%20applications.commands>
+
+> Replace `YOUR_CLIENT_ID` with your Discord Application Client ID.
+
+## 🔐 Permissions Included
+
+This permission set is intentionally minimal and safe:
+
+- View Channels
+- Send Messages
+- Embed Links
+- Read Message History
+
+❌ No Administrator permissions required.
+
+---
+
 ## ▶️ Running the Bot
 
 ### Development Mode
+
 ```bash
 npm run dev
 ```
 
 ### Deploy Commands
+
 ```bash
 npm run deploy
 ```
