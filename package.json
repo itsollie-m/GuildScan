@@ -1,6 +1,7 @@
 {
   "name": "guildscan",
   "version": "1.0.0",
+  "type": "module",
   "description": "Professional Discord server auditing and security analysis bot.",
   "main": "index.js",
   "scripts": {
