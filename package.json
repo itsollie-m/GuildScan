@@ -5,7 +5,8 @@
   "description": "Professional Discord server auditing and security analysis bot.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx src/index.ts",
+    "deploy": "tsx src/bot/registerCommands.ts"
   },
   "keywords": [],
   "author": "",
